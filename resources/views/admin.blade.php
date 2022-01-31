@@ -34,11 +34,11 @@
        </div>
        @endif
 
-       @if(session('saveFile'))
-       <div class="alert alert-success">
-          Загрузка файла завершена
-      </div>
-      @endif
+        @if(session('saveFile'))
+        <div class="alert alert-success">
+            Загрузка файла завершена
+        </div>
+        @endif
 
 
         <a href="{{ route('users') }}"> Список пользователей </a>
