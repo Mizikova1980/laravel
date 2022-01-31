@@ -71,7 +71,7 @@
                                 <a id="navbarDropdown" class="nav-link nav-link-picture dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 <img
                                     alt="{{ Auth::user()->name }}"
-                                    style="height:40px;border-radius: 100px;border: 1px solid grey;"
+                                    style="height:40px;border-radius: 100px;"
                                     src="{{asset('storage/img/users/')}}/{{Auth::user()->picture}}"
                                 >
                                 </a>
