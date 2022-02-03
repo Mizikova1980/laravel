@@ -43,7 +43,7 @@ class User extends Authenticatable
 
     public function addresses ()
     {
-        return $this->hasMany(adress::class);
+        return $this->hasMany(address::class);
     }
 
     public function roles ()

@@ -16,7 +16,7 @@ class ProfileController extends Controller
     public function profile(Request $request)
     {
         $user=Auth::user();
-      //  $address=adress::where('user_id',$user->id)->get();
+      //  $address=address::where('user_id',$user->id)->get();
 
         return view('profile', compact('user'));
     }
